@@ -1,277 +1,419 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Erin Sovereign">
-    <meta name="description" content="A personal portfolio for my work in UX Design">
-    <title>Erin Sovereign</title>
-    <link href="favicon.ico" rel="shortcut icon">
-  </head>
-  <body>
-    <header>
-      <div>
-        <img src="img/logo_banner.png" alt="ErinSovereignlogo">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main> <!--New Content here-->
-      <div>
-        <div>
-          <h1>ThinkInk Tattoo Inspiration</h1>
-          <div id="ThinkInk_coverphoto">
-              <picture>
-                  <source srcset="img/thinkink/coverphoto600px.png" media="(max-width:767px)">
-                  <img src="img/thinkink/coverphoto1200px.png" alt="Four phones">
-              </picture>
-          </div>
-          <div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Erin Sovereign" />
+        <meta name="description" content="A personal portfolio for my work in UX Design" />
+        <title>Erin Sovereign</title>
+        <link href="favicon.ico" rel="shortcut icon" />
+    </head>
+    <body>
+        <header>
             <div>
-              <h2>Tools Used</h2>
-              <ul>
-                <li>Adobe XD</li>
-                <li>Photoshop</li>
-                <li>Google Forms</li>
-                <li>Zoom</li>
-                <li>InVision</li>
-                <li>Optimal Sort</li>
-                <li>Balsamiq</li>
-                <li>Usability Hub</li>
-                <li>Pen and sticky notes</li>
-              </ul>
+                <img src="img/logo_banner.png" alt="ErinSovereignlogo" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
+        <main>
+            <!--New Content here-->
             <div>
-              <h2>My Design Process</h2>
-            </div>
-            <div id="DesignProcess">
-              <picture>
-                  <source srcset="img/thinkink/designprocess600px.png" media="(max-width:767px)">
-                  <img src="img/thinkink/designprocess1.png" alt="Design Process">
-              </picture>
-          </div>
-          <div>
-            <div>
-              <h1>Discover</h1>
-            </div>
-            <div>
-              <h2>The Challenge</h2>
-              <p>It may or may not come as a shock to you, but 38% of the world’s adult population has at least one tattoo. In the United States, that number jumps to a whopping 46% of adults who have one or more tattoos. Considering how many people have tattoos, it’s odd there aren’t any mobile apps used to find inspiration for a tattoo or the perfect artist to create it. Currently, most people use other social media apps to find tattoo photos and artists; usually Instagram or Pinterest. But there doesn’t seem to be one place where the tattoo community can be together online and share their art.<br><br>The challenge here is to provide this community with an app where they can find new tattoos, artists, and interact with others like themselves.</p>
-            </div>
-            <div>
-              <h2>Competitive Analysis</h2>
-              <p>Most users find their tattoo ideas on Pinterest or Instagram, but neither of these apps have the tattooing community as their focus. Looking at products just for tattoos, I found Tattoodo and TrueArtists. Tattoodo has both a website and a mobile application but doesn’t have the most extensive database of artists. TrueArtists is much more focused on the artists than the tattoos, but doesn’t have a very wide reach geographically. Also, TrueArtists does not have a mobile application.<br><br>There isn’t a product where users can go through the whole tattoo process in one place, which often slows down the process of getting a new tattoo.</p>
-            </div>
-              <div>
-                <h2>The Opportunity</h2>
-                <p>ThinkInk aims to provide the tattoo community with a one-stop-shop to find inspiration for their next tattoo, work with the perfect artist to bring their vision to life, and connect with others.</p>
-                <br>
-                <h2>"How?"</h2>
-                <p>ThinkInk will have an extensive database of tattoos from other users, along with the studio and artist that created them. Users can post photos, articles they want to share, or even just share an experience with the community. There’s also a database of artists with their work posted and reviews from their customers. When a photo is added to the tattoo database, the user will input as much information as possible to allow the algorithm to apply the right tags to the photo. This makes the detailed filtering system as accurate as possible to give users the exact tattoos they want to see.</p>
-              </div>
-              <div>
-                <h1>Define</h1>
-              </div>
-              <div>
-                <h2>Research Goals</h2>
-                <ol>
-                  <li>Understand user behavior around the process of getting a new tattoo</li>
-                  <li>Document user needs and frustrations with current methods of researching tattoos and tattoo studios</li>
-                  <li>Determine level of interest in a tattoo app</li>
-                </ol>
-                <br>
-              </div>
-              <div>
-                <h2>Affinity Mapping</h2>
-                <p>To get a better understanding of user needs, I conducted several user interviews as well as an online survey to gather data and group the data into affinity maps. The survey got data from a variety of potential users, which helped me design the questions and goals for the user interviews. Then the user interviews went in-depth to get important information about user needs. The affinity maps will help me organize my data, identify common threads, and focus on specific features needed.</p>
-              </div>
-              <div>
-                <div id="JimDataCluster">
-                  <picture>
-                      <source srcset="img/thinkink/research/jim600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/jim1200px.jpg" alt="Jim Data Cluster">
-                  </picture>
-                </div>
-                <div id="LydiaDataCluster">
-                  <picture>
-                      <source srcset="img/thinkink/research/lydia600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/lydia1200px.jpg" alt="Lydia Data Cluster">
-                  </picture>
-                </div>
-                <div id="JorgeDataCluster">
-                  <picture>
-                      <source srcset="img/thinkink/research/jorge600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/jorge1200px.jpg" alt="Jorge Data Cluster">
-                  </picture>
-                </div>
-                <div id="JessDataCluster">
-                  <picture>
-                      <source srcset="img/thinkink/research/jess600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/jess1200px.jpg" alt="Jess Data Cluster">
-                  </picture>
-                </div>
-                <div id="BeauDataCluster">
-                  <picture>
-                      <source srcset="img/thinkink/research/beau600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/beau1200px.jpg" alt="Beau Data Cluster">
-                  </picture>
-                </div>
-                  <div>
-                    <p>Using the data from the interviews, I organized the quotes and thoughts based on similar ideas into the categories below.</p>
-                  </div>
-                <div id="CommunityAffinityMap">
-                  <picture>
-                      <source srcset="img/thinkink/research/community600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/community1200px.jpg" alt="Community Affinity Map">
-                  </picture>
-                </div>
-                <div id="CompetitionAffinityMap">
-                  <picture>
-                      <source srcset="img/thinkink/research/competition600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/competition1200px.jpg" alt="Competition Affinity Map">
-                  </picture>
-                </div>
-                <div id="FeaturesAffinityMap">
-                  <picture>
-                      <source srcset="img/thinkink/research/features600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/features1200px.jpg" alt="Features Affinity Map">
-                  </picture>
-                </div>
-                <div id="NeedsAffinityMap">
-                  <picture>
-                      <source srcset="img/thinkink/research/needs600px.jpg" media="(max-width:767px)">
-                      <img src="img/thinkink/research/needs1200px.jpg" alt="Needs Affinity Map">
-                  </picture>
-                </div>
-              </div>
-              <div>
-                <h2>Insights</h2>
-                <ul>
-                  <li>When looking for specific artists or tattoos, users go to Instagram, however, they go to Pinterest when browsing for inspiration</li>
-                  <li>Most people with one tattoo have at least one more planned for the future</li>
-                  <li>Users want a way to narrow down the tattoos they look through so they aren’t just scrolling aimlessly</li>
-                  <li>The most desired features are a “Tattoos Like This” section, detailed artist information, and some kind of AR function</li>
-                </ul>
-              </div>
-              <div>
-                <h2>User Personas</h2>
-                <p>Using the data and insights from the survey and interviews, I created three distinct user personas. These will help guide the design early on to make sure it stays in line with the users’ needs. The personas give a realistic view of who the app is being designed for and what needs they have.</p>
-              </div>
-              <div>
-                <div id="James User Persona">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/jamespersona600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/jamespesrona1200px.png" alt="James User Persona">
-                  </picture>
-                </div>
-                <div id="Mandy User Persona">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/mandypersona600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/mandypersona1200px.png" alt="Mandy User Persona">
-                  </picture>
-                </div>
-                <div id="Nora User Persona">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/norapersona600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/norapersona1200px.png" alt="Nora User Persona">
-                  </picture>
-                </div>
-              </div>
-              <div>
-                <h2>User Journey</h2>
-                <p>Using the personas I built, I was able to create user journey maps for each user.</p>
-              </div>
-              <div>
-                <div id="James User Journey">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/jamesjourney600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/jamesjourney1200px.png" alt="James User Persona">
-                  </picture>
-                </div>
-                <div id="Mandy User Persona">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/mandyjourney600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/mandyjourney1200px.png" alt="Mandy User Persona">
-                  </picture>
-                </div>
-                <div id="Nora User Persona">
-                  <picture>
-                      <source srcset="img/thinkink/personasjourney/norajourney600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/personasjourney/norajourney1200px.png" alt="Nora User Persona">
-                  </picture>
-                </div>
-              </div>
-              <div>
-              <div>
-                <h1>Develop</h1>
-              </div>
-              <div>
-                <h2>Sitemap</h2>
-                <p>I originally created a sitemap, thinking I would design both a website and a mobile application. However, as I got further in the design process, I decided to focus on the mobile application. So this sitemap was used as a framework for the mobile app, simplified, but without losing the core features and functions.</p>
-              </div>
-                <div id="Sitemap">
-                  <picture>
-                      <source srcset="img/thinkink/sitemap600px.png" media="(max-width:767px)">
-                      <img src="img/thinkink/sitemap1200px.png" alt="Sitemap">
-                  </picture>
+                <h1>ThinkInk Tattoo Inspiration</h1>
+                <div id="ThinkInk_coverphoto">
+                    <picture>
+                        <source srcset="img/thinkink/coverphoto600px.png" media="(max-width:767px)" />
+                        <img src="img/thinkink/coverphoto1200px.png" alt="Four phones" />
+                    </picture>
                 </div>
                 <div>
-                  <h2>Wireframes</h2>
-                  <p>To get the ball rolling, I started by sketching some basic ideas for the home screen, tattoos tab, filters window, and artists’ profile. Then I took these sketches and turned them into wireframes in Adobe XD. I tried to keep things simple to concentrate mainly on getting the ideas on paper.<br><br>The three tasks I focused on were:</p>
-                  <ol>
-                    <li>Filtering the tattoos tab</li>
-                    <li>Adding a tattoo to a Sketchbook</li>
-                    <li>Finding reviews for an artist on their profile</li>
-                  </ol>
+                    <div>
+                        <h2>Tools Used</h2>
+                        <ul>
+                            <li>Adobe XD</li>
+                            <li>Photoshop</li>
+                            <li>Google Forms</li>
+                            <li>Zoom</li>
+                            <li>InVision</li>
+                            <li>Optimal Sort</li>
+                            <li>Balsamiq</li>
+                            <li>Usability Hub</li>
+                            <li>Pen and sticky notes</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>My Design Process</h2>
+                    </div>
+                    <div id="DesignProcess">
+                        <picture>
+                            <source srcset="img/thinkink/designprocess600px.png" media="(max-width:767px)" />
+                            <img src="img/thinkink/designprocess1.png" alt="Design Process" />
+                        </picture>
+                    </div>
+                    <div>
+                        <div>
+                            <h1>Discover</h1>
+                        </div>
+                        <div>
+                            <h2>The Challenge</h2>
+                            <p>
+                                It may or may not come as a shock to you, but 38% of the world’s adult population has at least one tattoo. In the United States, that number jumps to a whopping 46% of adults who have one or more tattoos.
+                                Considering how many people have tattoos, it’s odd there aren’t any mobile apps used to find inspiration for a tattoo or the perfect artist to create it. Currently, most people use other social media apps to
+                                find tattoo photos and artists; usually Instagram or Pinterest. But there doesn’t seem to be one place where the tattoo community can be together online and share their art.<br />
+                                <br />
+                                The challenge here is to provide this community with an app where they can find new tattoos, artists, and interact with others like themselves.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>Competitive Analysis</h2>
+                            <p>
+                                Most users find their tattoo ideas on Pinterest or Instagram, but neither of these apps have the tattooing community as their focus. Looking at products just for tattoos, I found Tattoodo and TrueArtists.
+                                Tattoodo has both a website and a mobile application but doesn’t have the most extensive database of artists. TrueArtists is much more focused on the artists than the tattoos, but doesn’t have a very wide
+                                reach geographically. Also, TrueArtists does not have a mobile application.<br />
+                                <br />
+                                There isn’t a product where users can go through the whole tattoo process in one place, which often slows down the process of getting a new tattoo.
+                            </p>
+                        </div>
+                        <div>
+                            <h2>The Opportunity</h2>
+                            <p>ThinkInk aims to provide the tattoo community with a one-stop-shop to find inspiration for their next tattoo, work with the perfect artist to bring their vision to life, and connect with others.</p>
+                            <br />
+                            <h2>"How?"</h2>
+                            <p>
+                                ThinkInk will have an extensive database of tattoos from other users, along with the studio and artist that created them. Users can post photos, articles they want to share, or even just share an experience
+                                with the community. There’s also a database of artists with their work posted and reviews from their customers. When a photo is added to the tattoo database, the user will input as much information as
+                                possible to allow the algorithm to apply the right tags to the photo. This makes the detailed filtering system as accurate as possible to give users the exact tattoos they want to see.
+                            </p>
+                        </div>
+                        <div>
+                            <h1>Define</h1>
+                        </div>
+                        <div>
+                            <h2>Research Goals</h2>
+                            <ol>
+                                <li>Understand user behavior around the process of getting a new tattoo</li>
+                                <li>Document user needs and frustrations with current methods of researching tattoos and tattoo studios</li>
+                                <li>Determine level of interest in a tattoo app</li>
+                            </ol>
+                            <br />
+                        </div>
+                        <div>
+                            <h2>Affinity Mapping</h2>
+                            <p>
+                                To get a better understanding of user needs, I conducted several user interviews as well as an online survey to gather data and group the data into affinity maps. The survey got data from a variety of
+                                potential users, which helped me design the questions and goals for the user interviews. Then the user interviews went in-depth to get important information about user needs. The affinity maps will help me
+                                organize my data, identify common threads, and focus on specific features needed.
+                            </p>
+                        </div>
+                        <div>
+                            <div id="JimDataCluster">
+                                <picture>
+                                    <source srcset="img/thinkink/research/jim600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/jim1200px.jpg" alt="Jim Data Cluster" />
+                                </picture>
+                            </div>
+                            <div id="LydiaDataCluster">
+                                <picture>
+                                    <source srcset="img/thinkink/research/lydia600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/lydia1200px.jpg" alt="Lydia Data Cluster" />
+                                </picture>
+                            </div>
+                            <div id="JorgeDataCluster">
+                                <picture>
+                                    <source srcset="img/thinkink/research/jorge600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/jorge1200px.jpg" alt="Jorge Data Cluster" />
+                                </picture>
+                            </div>
+                            <div id="JessDataCluster">
+                                <picture>
+                                    <source srcset="img/thinkink/research/jess600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/jess1200px.jpg" alt="Jess Data Cluster" />
+                                </picture>
+                            </div>
+                            <div id="BeauDataCluster">
+                                <picture>
+                                    <source srcset="img/thinkink/research/beau600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/beau1200px.jpg" alt="Beau Data Cluster" />
+                                </picture>
+                            </div>
+                            <div>
+                                <p>Using the data from the interviews, I organized the quotes and thoughts based on similar ideas into the categories below.</p>
+                            </div>
+                            <div id="CommunityAffinityMap">
+                                <picture>
+                                    <source srcset="img/thinkink/research/community600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/community1200px.jpg" alt="Community Affinity Map" />
+                                </picture>
+                            </div>
+                            <div id="CompetitionAffinityMap">
+                                <picture>
+                                    <source srcset="img/thinkink/research/competition600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/competition1200px.jpg" alt="Competition Affinity Map" />
+                                </picture>
+                            </div>
+                            <div id="FeaturesAffinityMap">
+                                <picture>
+                                    <source srcset="img/thinkink/research/features600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/features1200px.jpg" alt="Features Affinity Map" />
+                                </picture>
+                            </div>
+                            <div id="NeedsAffinityMap">
+                                <picture>
+                                    <source srcset="img/thinkink/research/needs600px.jpg" media="(max-width:767px)" />
+                                    <img src="img/thinkink/research/needs1200px.jpg" alt="Needs Affinity Map" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Insights</h2>
+                            <ul>
+                                <li>When looking for specific artists or tattoos, users go to Instagram, however, they go to Pinterest when browsing for inspiration</li>
+                                <li>Most people with one tattoo have at least one more planned for the future</li>
+                                <li>Users want a way to narrow down the tattoos they look through so they aren’t just scrolling aimlessly</li>
+                                <li>The most desired features are a “Tattoos Like This” section, detailed artist information, and some kind of AR function</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>User Personas</h2>
+                            <p>
+                                Using the data and insights from the survey and interviews, I created three distinct user personas. These will help guide the design early on to make sure it stays in line with the users’ needs. The personas
+                                give a realistic view of who the app is being designed for and what needs they have.
+                            </p>
+                        </div>
+                        <div>
+                            <div id="JamesPersona">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/jamespersona600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/jamespesrona1200px.png" alt="James User Persona" />
+                                </picture>
+                            </div>
+                            <div id="MandyPersona">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/mandypersona600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/mandypersona1200px.png" alt="Mandy User Persona" />
+                                </picture>
+                            </div>
+                            <div id="NoraPersona">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/norapersona600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/norapersona1200px.png" alt="Nora User Persona" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>User Journey</h2>
+                            <p>Using the personas I built, I was able to create user journey maps for each user.</p>
+                        </div>
+                        <div>
+                            <div id="JamesJourney">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/jamesjourney600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/jamesjourney1200px.png" alt="James User Journey" />
+                                </picture>
+                            </div>
+                            <div id="MandyJourney">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/mandyjourney600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/mandyjourney1200px.png" alt="Mandy User Journey" />
+                                </picture>
+                            </div>
+                            <div id="NoraJourney">
+                                <picture>
+                                    <source srcset="img/thinkink/personasjourney/norajourney600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/personasjourney/norajourney1200px.png" alt="Nora User Journey" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h1>Develop</h1>
+                            </div>
+                            <div>
+                                <h2>Sitemap</h2>
+                                <p>
+                                    I originally created a sitemap, thinking I would design both a website and a mobile application. However, as I got further in the design process, I decided to focus on the mobile application. So this
+                                    sitemap was used as a framework for the mobile app, simplified, but without losing the core features and functions.
+                                </p>
+                            </div>
+                            <div id="Sitemap">
+                                <picture>
+                                    <source srcset="img/thinkink/sitemap600px.png" media="(max-width:767px)" />
+                                    <img src="img/thinkink/sitemap1200px.png" alt="Sitemap" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h2>Wireframes</h2>
+                                <p>
+                                    To get the ball rolling, I started by sketching some basic ideas for the home screen, tattoos tab, filters window, and artists’ profile. Then I took these sketches and turned them into wireframes in Adobe
+                                    XD. I tried to keep things simple to concentrate mainly on getting the ideas on paper.<br />
+                                    <br />
+                                    The three tasks I focused on were:
+                                </p>
+                                <ol>
+                                    <li>Filtering the tattoos tab</li>
+                                    <li>Adding a tattoo to a Sketchbook</li>
+                                    <li>Finding reviews for an artist on their profile</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <h3>Low-Fidelity</h3>
+                                <div id="LowFidelityWireframes">
+                                    <picture>
+                                        <source srcset="img/thinkink/wireframes/low-fidelity/lowfidelitywireframes600px.png" media="(max-width:767px)" />
+                                        <img src="img/thinkink/wireframes/low-fidelity/lowfidelitywireframes1200px.png" alt="Low-Fidelity Wireframes" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div>
+                                <h3>Mid-Fidelity</h3>
+                                <div id="MidFidelityWireframes">
+                                    <picture>
+                                        <source srcset="img/thinkink/wireframes/mid-fidelity/midfidelitywireframes600px.png" media="(max-width:767px)" />
+                                        <img src="img/thinkink/wireframes/mid-fidelity/midfidelitywireframes1200px.png" alt="Mid-Fidelity Wireframes" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div>
+                                <p>The wireframes were translated to mid-fidelity in Adobe XD and then turned into a prototype on InVision for the purposes of User Testing.</p>
+                                <!--Large text/subheaders in between sections-->
+                            </div>
+                            <div>
+                                <h3>High-Fidelity</h3>
+                                <div id="HighFidelityWireframes">
+                                    <picture>
+                                        <source srcset="img/thinkink/wireframes/high-fidelity/hifidelityhome600px.png" media="(max-width:767px)" />
+                                        <img src="img/thinkink/wireframes/high-fidelity/hifidelityhome1200px.png" alt="High-Fidelity Wireframes" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div>
+                                <h2>User Testing</h2>
+                                <div>
+                                    <h3>Direct Tasks</h3>
+                                    <ol>
+                                        <li>Please go through the app as if you are making an account and then logging in (no need to fill out the information).</li>
+                                        <li>
+                                            After signing up for an account and logging in, go to where you can see all the tattoos posted. There are too many photos of tattoos here and a lot of them aren’t your style. Filter that tattoos
+                                            to get a more manageable number to look at.
+                                        </li>
+                                        <li>You found a tattoo you like and want to save it so you can look at it later. Add the tattoo to the sketchbook for this tattoo idea.</li>
+                                        <li>
+                                            Now you think you’ve been looking at tattoo photos too long. You enjoy using the same artist for multiple tattoos, so you want to find a tattoo artist that comes highly reviewed by other tattoo
+                                            enthusiasts. Go to an artist’s profile and look at their reviews.
+                                        </li>
+                                    </ol>
+                                </div>
+                                <h3>Questions</h3>
+                                <ol>
+                                    <li>Is there anything that stuck out to you, good or bad?</li>
+                                    <li>Since this app is in its first prototype, it has no color. Are there any colors you imagine when going through the app? What are they?</li>
+                                    <li>Are there any other suggestions or feedback you have for us?</li>
+                                    <li>What features do you think are essential for this kind of app?</li>
+                                    <li>On a scale from 0 to 10 with 0 being not at all likely and 10 being extremely likely, how likely is it that you’d recommend this app to a friend or colleague that was interested in tattoos?</li>
+                                </ol>
+                            </div>
+                            <div>
+                                <div>
+                                    <h2>Analysis</h2>
+                                    <p>
+                                        I grouped the notes from the user tests into categories: Observations, Positive Quotes, Negative Quotes, and Errors to create an Affinity Map. Then I used this to organize and arrange the data into a
+                                        Rainbow Spreadsheet. This was used to organize and translate the data into fixable issues.
+                                    </p>
+                                </div>
+                                <div id="UserTestingAffinityMap">
+                                    <picture>
+                                        <source srcset="img/thinkink/usabilityaffinitymap600px.png" media="(max-width:767px)" />
+                                        <img src="img/thinkink/usabilityaffinitymap1200px.png" alt="User Testing Affinity Map" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <h2>Design Iterations</h2>
+                                    <p>
+                                        After fixing the usability issues above, I did a few informal user tests. The feedback given made me decide to overhaul the visual aspects of the design. You can see the process of making these
+                                        changes in the slides below.
+                                    </p>
+                                </div>
+                                <div id="IterationsOnboarding">
+                                    <picture>
+                                        <source srcset="img/thinkink/iterations/iterationsonboarding600px.png" media="(max-width:767px)" />
+                                        <img src="img/thinkink/iterations/iterationsonboarding1200px.png" alt="Design Iterations Onboarding" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h1>Deliver</h1>
+                                <p>
+                                    After completing an overhaul of the application, I gathered the colors, typography, UI Components, layout, imagery & illustrations, and language guidelines to build a Design System Language. This serves
+                                    to help different teams and designers on a project come in and know what standards and guidelines need to be followed. This allows a team to have a cohesive design.
+                                </p>
+                                <br />
+                                <a href="files/designlanguagesystem.pdf" target="_blank" download>Download the Design System Language Guide</a>
+                            </div>
+                            <div>
+                                <h2>Live Prototype</h2>
+                                <!--make this all a button-->
+                                <a href="https://xd.adobe.com/view/10824c65-d75a-4f33-817c-6f4c63613782-45d1/?fullscreen" target="_blank">View the live prototype here!</a>
+                            </div>
+                            <div>
+                                <h2>Lessons Learned</h2>
+                                <ul>
+                                    <li>You can't overstate the importance of user research, otherwise, you end up validating your own biased assumptions</li>
+                                    <li>Don't let yourself get too bogged down on every little detail in the early stages of wireframing</li>
+                                    <li>Constantly questioning yourself and your decisions leads to the best results</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <div>
-      <div>
-        <h2>talk to me</h2>
-        <p>"I love meeting new friends, come say hi! Though be warned, I mostly tweet about baseball."</p>
-      </div>
-      <div>
-        <a href="mailto:erin.sovereign@gmail.com">Email me</a>
-      </div>
-      <div>
-        <a href="https://www.linkedin.com/in/erinsovereign/" target="_blank">
-            <!-- Linkedin icon -->
-            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
-                <path d="M512 64c0-35.323-28.677-64-64-64H64C28.677 0 0 28.677 0 64v384c0 35.323 28.677 64 64 64h384c35.323 0 64-28.677 64-64V64z" fill="#2867b2" />
-                <g fill="#fff">
-                    <path d="M61.053 178.667h85.76v257.962h-85.76z" />
-                    <path
-                        d="M104.512 54.28C75.171 54.28 56 73.57 56 98.853c0 24.752 18.588 44.574 47.377 44.574h.554c29.903 0 48.516-19.822 48.516-44.574-.555-25.283-18.611-44.573-47.935-44.573zM357.278 172.601c-45.49 0-65.866 25.017-77.276 42.589v-36.523h-85.738c1.137 24.197 0 257.961 0 257.961h85.737V292.564c0-7.711.554-15.42 2.827-20.931 6.188-15.4 20.305-31.352 43.993-31.352 31.012 0 43.436 23.664 43.436 58.327v138.02h85.741v-147.93c0-79.237-42.305-116.097-98.72-116.097z"
-                        fill-rule="nonzero"
-                    />
-                </g>
-            </svg>
-        </a>
-        <a href="https://twitter.com/erinsovereign" target="_blank">
-            <!-- Twitter icon -->
+        </main>
+        <footer>
+            <div>
+                <div>
+                    <h2>talk to me</h2>
+                    <p>"I love meeting new friends, come say hi! Though be warned, I mostly tweet about baseball."</p>
+                </div>
+                <div>
+                    <a href="mailto:erin.sovereign@gmail.com">Email me</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/erinsovereign/" target="_blank">
+                        <!-- Linkedin icon -->
+                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                            <path d="M512 64c0-35.323-28.677-64-64-64H64C28.677 0 0 28.677 0 64v384c0 35.323 28.677 64 64 64h384c35.323 0 64-28.677 64-64V64z" fill="#2867b2" />
+                            <g fill="#fff">
+                                <path d="M61.053 178.667h85.76v257.962h-85.76z" />
+                                <path
+                                    d="M104.512 54.28C75.171 54.28 56 73.57 56 98.853c0 24.752 18.588 44.574 47.377 44.574h.554c29.903 0 48.516-19.822 48.516-44.574-.555-25.283-18.611-44.573-47.935-44.573zM357.278 172.601c-45.49 0-65.866 25.017-77.276 42.589v-36.523h-85.738c1.137 24.197 0 257.961 0 257.961h85.737V292.564c0-7.711.554-15.42 2.827-20.931 6.188-15.4 20.305-31.352 43.993-31.352 31.012 0 43.436 23.664 43.436 58.327v138.02h85.741v-147.93c0-79.237-42.305-116.097-98.72-116.097z"
+                                    fill-rule="nonzero"
+                                />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/erinsovereign" target="_blank">
+                        <!-- Twitter icon -->
 
-            838 bytes → 526 bytes 62.77%
-            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
-                <path fill="none" d="M56 56h400v400H56z" />
-                <path
-                    d="M161.014 464.013c193.208 0 298.885-160.071 298.885-298.885 0-4.546 0-9.072-.307-13.578A213.737 213.737 0 00512 97.176a209.705 209.705 0 01-60.334 16.527 105.426 105.426 0 0046.182-58.102 210.548 210.548 0 01-66.703 25.498 105.184 105.184 0 00-76.593-33.112c-57.682 0-105.145 47.464-105.145 105.144 0 8.002.914 15.979 2.722 23.773-84.418-4.231-163.18-44.161-216.494-109.752-27.724 47.726-13.379 109.576 32.522 140.226A104.258 104.258 0 0120.48 194.23v1.331c.014 49.814 35.447 93.111 84.275 102.974a104.898 104.898 0 01-47.431 1.802c13.727 42.685 53.311 72.108 98.14 72.95a210.83 210.83 0 01-130.458 45.056A213.688 213.688 0 010 416.827a297.42 297.42 0 00161.014 47.104"
-                    fill="#1da1f2"
-                    fill-rule="nonzero"
-                />
-            </svg>
-        </a>
-    </div>
-    <p>Copyright Erin-Sovereign 2021</p>
-  </div>
-  </footer>
-  </body>
-  </html>
+                        838 bytes → 526 bytes 62.77%
+                        <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+                            <path fill="none" d="M56 56h400v400H56z" />
+                            <path
+                                d="M161.014 464.013c193.208 0 298.885-160.071 298.885-298.885 0-4.546 0-9.072-.307-13.578A213.737 213.737 0 00512 97.176a209.705 209.705 0 01-60.334 16.527 105.426 105.426 0 0046.182-58.102 210.548 210.548 0 01-66.703 25.498 105.184 105.184 0 00-76.593-33.112c-57.682 0-105.145 47.464-105.145 105.144 0 8.002.914 15.979 2.722 23.773-84.418-4.231-163.18-44.161-216.494-109.752-27.724 47.726-13.379 109.576 32.522 140.226A104.258 104.258 0 0120.48 194.23v1.331c.014 49.814 35.447 93.111 84.275 102.974a104.898 104.898 0 01-47.431 1.802c13.727 42.685 53.311 72.108 98.14 72.95a210.83 210.83 0 01-130.458 45.056A213.688 213.688 0 010 416.827a297.42 297.42 0 00161.014 47.104"
+                                fill="#1da1f2"
+                                fill-rule="nonzero"
+                            />
+                        </svg>
+                    </a>
+                </div>
+                <p>Copyright Erin-Sovereign 2021</p>
+            </div>
+        </footer>
+    </body>
+</html>
