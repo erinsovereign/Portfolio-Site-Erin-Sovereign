@@ -17,7 +17,7 @@
     <body>
         <header>
             <div>
-                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" />
+                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo">
                 <nav id="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -28,16 +28,16 @@
             </div>
         </header>
         <main>
-            <div id="intro">
+            <div id="intro" class="container">
                 <div>
                     <h1>Hi, I'm Erin! <span>A UX Designer in Houston, Texas.</span></h1>
-                    <p>I'm a UX Designer with an extensive background in Customer Support focused on human-centered design.</p>
+                    <p><br>I'm a UX Designer with an extensive background in Customer Support focused on human-centered design.</p>
                     <p>My experience in technical support facilitates understanding of customer needs and provides a unique perspective on the user experience.</p>
                 </div>
             </div>
-            <div id="work">
+            <div id="work" class="container-wide">
                 <h2>my work</h2>
-                <div>
+                <div class="row">
                     <div>
                         <picture>
                             <source srcset="img/thinkink/coverphoto600px.png" media="(max-width:767px)" />
@@ -46,11 +46,13 @@
                     </div>
                     <div>
                         <h3>thinkink</h3>
+                        <div class="project-text">
                         <p>
                             "ThinkInk is an application for everyone in the tattoo community to come together. Find inspiration for your next tattoo, message with an artist about your ideas, or just chat with others who share a love of
                             tattoo art. This case study goes through the entire UX process from user research and competitive analysis through to a high-fidelity interactive prototype."
                         </p>
                         <a href="thinkink.html" class="button">Read more</a>
+                      </div>
                     </div>
                 </div>
                 <div>
@@ -69,15 +71,15 @@
             </div>
         </main>
         <footer>
-            <div>
+          <h2>talk to me</h2>
+            <div class="container">
                 <div>
-                    <h2>talk to me</h2>
                     <p>"I love meeting new friends, come say hi! Though be warned, I mostly tweet about baseball."</p>
                 </div>
                 <div>
                     <a href="mailto:erin.sovereign@gmail.com" class="button contact">Email me</a>
                 </div>
-                <div>
+                <div class="social">
                     <a href="https://www.linkedin.com/in/erinsovereign/" target="_blank">
                         <!-- Linkedin icon -->
                         <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
@@ -97,7 +99,7 @@
                         <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g data-name="6-twitter"><rect height="64" rx="11.2" ry="11.2" transform="rotate(180 32 32)" width="64" fill="#00aade"/><path d="M47.2 20.8a8 8 0 004-4.8c-1.6 1.6-5 2.13-5 2.13a8 8 0 00-13.83 7.47H32a23.45 23.45 0 01-16.8-8.8s-4.8 6.4 2.4 11.2c0 0-3.2 0-4-.8 0 0-.8 4.8 6.4 8a3.86 3.86 0 01-3.2 0c0 3.09 3.22 5.6 7.2 5.6 0 2.21-5.37 4-12 4 10.4 7.2 35.2 5.6 36.8-21.6l4-4z" fill="#fff"/></g></svg>
                     </a>
                 </div>
-                <p>Copyright Erin-Sovereign 2021</p>
+                <p class="copyright">Copyright Erin-Sovereign 2021</p>
             </div>
         </footer>
     </body>

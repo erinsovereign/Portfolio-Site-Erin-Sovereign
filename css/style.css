@@ -4,15 +4,12 @@ Primary Color (Prussian Blue): #002642;
 Secondary Color (Salsa Red): #FB3640;
 Active Color (dark purple): #553555;
 */
-header {
-    background-color: white;
-    padding: 10px;
-    margin: 10px 5px 15px 5px;
-}
+
 * {
     box-sizing: border-box;
     margin: 0px;
 }
+
 body {
     background-color: white;
     color: #002642;
@@ -22,6 +19,7 @@ body {
     line-height: normal;
     padding: 10px 25px 15px 20px;
     margin: 0px;
+    text-align: center;
 }
 ul {
     background-color: white;
@@ -30,15 +28,35 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
-    padding: 0px;
+    padding: 0 0 0 20px;
     margin: 0px;
-    list-style-type: none;
+    text-align: left;
 }
-#menu {
-  display: inline;
-  position: fixed;
+/*for navigation menu*/
+nav > ul {
+  list-style-type: none;
+  padding: 10;
 }
+nav > ul > li {
+  display: inline-block;
 }
+nav > ul > li > a {
+  padding: 0 15px;
+  font-weight: 700;
+  color: #FB3640;
+  text-decoration:none;
+}
+nav > ul > li > a:visited {
+  color: #553555;
+}
+nav > ul > li > a:active {
+  color: #fb3640;
+}
+nav > ul > li > a:hover {
+  color: #002642;
+  text-decoration:underline;
+}
+/*end nav menu style*/
 ol {
     background-color: white;
     color: #002642;
@@ -57,29 +75,34 @@ h4 {
     font-family: "Raleway", sans-serif;
     line-height: 1.4em;
     font-weight: 500;
-    margin: 0px;
+    margin: 0 0 20px;
+
 }
 h1,
 h3 {
     background-color: #002642;
     padding: 10px 5px 15px 5px;
-    margin: 0px;
+    margin: 0 0 20px;
 }
 h1 {
     color: #fb3640;
     font-size: 3.5rem;
     padding: 10px 5px 15px 5px;
     text-align: center;
-    margin: 0px;
+    margin: 0 0 20px;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
 }
 h2 {
     background-color: white;
     color: #002642;
     font-size: 2.3rem;
     text-decoration: underline;
-    padding: 10px 5px 10px 5px;
+    padding: 20px 5px 10px 5px;
     text-align: center;
-    margin: 0px;
 }
 h3 {
     color: #fb3640;
@@ -87,13 +110,15 @@ h3 {
     padding: 10px;
     padding: 10px 5px 10px 5px;
     text-align: center;
-    margin: 0px;
 }
 h4 {
     background-color: white;
     color: #002642;
     font-size: 1.6rem;
     margin: 0px;
+}
+p{
+  margin-bottom: 20px;
 }
 footer {
     background-color: #002642;
@@ -144,6 +169,46 @@ a:active {
     color: #fb3640;
     border: 2px solid #fb3640;
 }
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 5px 15px 5px;
+    position: relative;
+}
+
+.logo{
+  max-width: 250px;
+}
+.container{
+  padding: 0 15px;
+}
+.row {
+  margin-bottom: 15px;
+}
+.project-text {
+  margin-bottom: 0 15px;
+}
+#intro > p {
+  text-align: center;
+  font-size: 16;
+}
+footer .container {
+  padding-top: 30px;
+}
+.social {
+  padding: 20px 0;
+}
+.social a {
+  width: 50px;
+  margin: 0 10px;
+  display: inline-block;
+}
+.copyright {
+  margin-bottom: 0px;
+}
+.ordered-list-left{
+  text-align: left;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -151,14 +216,15 @@ Medium devices (640px and larger)
   header {
   text-align: unset;
   padding: 20px 0px 13px;
+
+  }
+  #intro h1{
+    font-size: 32px;
   }
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
-  }
-  * {
-    padding-top: 99px;
   }
 }
 /* ==============================

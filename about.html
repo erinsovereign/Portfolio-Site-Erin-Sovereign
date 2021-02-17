@@ -17,7 +17,7 @@
     <body>
         <header>
             <div>
-                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" />
+                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo">
               <nav id="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -30,25 +30,31 @@
         <main>
             <!--new content -->
             <div>
-                <div>
-                    <h1>About</h1>
-                    <div id="My_photo">
-                        <picture>
-                            <source srcset="img/myphoto600px.jpg" media="(max-width:767px)" />
-                            <img src="img/myphoto1200px.jpg" alt="My Face" />
-                        </picture>
-                    </div>
-                    <div>
+              <div class="container-wide">
+                <h1>About</h1>
+                <div id="My_photo">
+                    <picture>
+                        <source srcset="img/myphoto600px.jpg" media="(max-width:767px)" />
+                        <img src="img/myphoto1200px.jpg" alt="My Face" />
+                    </picture>
+                </div>
+              </div>
+                <div class="container">
+
+                    <div class="row">
+                      <div>
                         <h2>My Story</h2>
                         <p>
-                            "I’m Erin. I got my Bachelor’s degree from TCU (go frogs!) in Marketing. But I discovered early on that I wanted to go beyond marketing. I have always liked the idea of getting people excited about something and
+                            I’m Erin. I got my Bachelor’s degree from TCU (go frogs!) in Marketing. But I discovered early on that I wanted to go beyond marketing. I have always liked the idea of getting people excited about something and
                             I’ve always loved technology. After four years of working as high-level support in the technology and software industry, I recognized that I could combine the two. And thus, my desire to become a UX Designer was
-                            born. I took an intensive ten month UX Design Course through CareerFoundry. It takes you through life as a UX Designer, while having you design a web application of your own from research all the way to a
-                            high-fidelity prototype."
+                            born. <br> I took an intensive ten month UX Design Course through CareerFoundry. It takes you through life as a UX Designer, while having you design a web application of your own from research all the way to a
+                            high-fidelity prototype.
                         </p>
                         <a href="files/sovereign_erin_resume.pdf" target="_blank" download>Download My Resume</a>
+                      </div>
+                      <div>
                         <h2>Skills & Tools</h2>
-                        <div>
+                        <div class="row">
                             <div>
                                 <h3>Skills</h3>
                                 <ul>
@@ -81,6 +87,7 @@
                                 </ul>
                             </div>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -94,7 +101,7 @@
                 <div>
                     <a href="mailto:erin.sovereign@gmail.com" class="button contact">Email me</a>
                 </div>
-                <div>
+                <div class="social">
                     <a href="https://www.linkedin.com/in/erinsovereign/" target="_blank">
                         <!-- Linkedin icon -->
                         <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
