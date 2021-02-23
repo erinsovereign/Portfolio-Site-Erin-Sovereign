@@ -58,6 +58,22 @@ nav > ul > li > a:hover {
   text-decoration:underline;
 }
 /*end nav menu style*/
+/*animation attempts*/
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+/*end animation attempts*/
 ol {
     background-color: white;
     color: #002642;
@@ -136,6 +152,7 @@ a {
     color: #fb3640;
     text-decoration: underline;
     color: #fb3640;
+    transition: 0.2s underline;
 }
 a:focus,
 a:hover {
@@ -211,23 +228,54 @@ footer .container {
 .ordered-list-left{
   text-align: left;
 }
+.berlin-illustration{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.intrepidcover {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .col-md-6 {
+  width: 50%;
+}
   header {
   text-align: unset;
   padding: 0px;
 
   }
+  [class*="col-"] {
+  float: left;
+}
+* {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   #intro h1{
-    font-size: 32px;
+    font-size: 18px;
   }
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
+  body {
+    font-size: 18px;
+  }
+  #intro span {
+  display: block;
+}
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -236,9 +284,16 @@ Large devices (1024px or larger)
 header {
   padding: 0px;
   margin-bottom: 0px;
+  text-align: unset;
+}
+.col-lg-7 {
+width: 75%;
+}
+.col-lg-5 {
+width: 75%;
 }
 h1{
-  font-size: 18px;
+  font-size: 24px;
   padding-top: 25px;
   padding-right: 10px;
 }
@@ -246,9 +301,31 @@ nav > ul {
   padding-top: 50px;
   padding-right: 25px;
 }
+body {
+  font-size: 18px;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+  body{
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  .container-wide {
+    max-width: 1200px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  #intro span {
+  display: block;
+}
+h1 {
+  font-size: 24px;
+}
 }
