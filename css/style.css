@@ -36,6 +36,9 @@ ul > li {
   padding-left: 0px;
 }
 /*for navigation menu*/
+.menu {
+  clear:both;
+}
 nav > ul {
   list-style-type: none;
   padding-top: 50px;
@@ -224,12 +227,12 @@ header .container:after{
   margin-bottom: 15px;
 }
 .project-text {
-  margin-bottom: 0 15px;
+  margin-bottom: 15px;
   padding: 0 20px;
 }
 #intro > p {
   text-align: center;
-  font-size: 16;
+  font-size: 16px;
 }
 #intro .container {
   padding: 0 20px;
@@ -301,6 +304,9 @@ h1 {
     float: right;
     margin-top: 4px;
   }
+  nav > ul > li > a {
+    font-size: 18px;
+  }
   body {
     font-size: 18px;
   }
@@ -333,6 +339,9 @@ nav > ul {
   padding-top: 50px;
   padding-right: 25px;
 }
+nav > ul > li > a {
+  font-size: 18px;
+}
 body {
   font-size: 16px;
 }
@@ -356,6 +365,9 @@ X-large devices (1440px or larger)
   }
   #intro span {
   display: block;
+}
+nav > ul > li > a {
+  font-size: 18px;
 }
 h1 {
   font-size: 24px;

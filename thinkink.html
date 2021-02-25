@@ -16,8 +16,8 @@
     </head>
     <body>
         <header>
-            <div>
-                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo">
+            <div class="container">
+                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo" />
                 <nav id="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -29,8 +29,8 @@
         </header>
         <main>
             <!--New Content here-->
-            <div>
-                <h1>ThinkInk Tattoo Inspiration</h1>
+            <h1>ThinkInk Tattoo Inspiration</h1>
+            <div class="container">
                 <div id="ThinkInk_coverphoto">
                     <picture>
                         <source srcset="img/thinkink/coverphoto600px.png" media="(max-width:767px)" />
@@ -38,28 +38,30 @@
                     </picture>
                 </div>
                 <div>
-                    <div>
-                        <h2>Tools Used</h2>
-                        <ul>
-                            <li>Adobe XD</li>
-                            <li>Photoshop</li>
-                            <li>Google Forms</li>
-                            <li>Zoom</li>
-                            <li>InVision</li>
-                            <li>Optimal Sort</li>
-                            <li>Balsamiq</li>
-                            <li>Usability Hub</li>
-                            <li>Pen and sticky notes</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2>My Design Process</h2>
-                    </div>
-                    <div id="DesignProcess">
-                        <picture>
-                            <source srcset="img/thinkink/designprocess600px.png" media="(max-width:767px)" />
-                            <img src="img/thinkink/designprocess1.png" alt="Design Process" />
-                        </picture>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Tools Used</h2>
+                            <ul>
+                                <li>Adobe XD</li>
+                                <li>Photoshop</li>
+                                <li>Google Forms</li>
+                                <li>Zoom</li>
+                                <li>InVision</li>
+                                <li>Optimal Sort</li>
+                                <li>Balsamiq</li>
+                                <li>Usability Hub</li>
+                                <li>Pen and sticky notes</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>My Design Process</h2>
+                        </div>
+                        <div id="DesignProcess">
+                            <picture>
+                                <source srcset="img/thinkink/designprocess600px.png" media="(max-width:767px)" />
+                                <img src="img/thinkink/designprocess1.png" alt="Design Process" />
+                            </picture>
+                        </div>
                     </div>
                     <div>
                         <div>
@@ -119,63 +121,89 @@
                                 organize my data, identify common threads, and focus on specific features needed.
                             </p>
                         </div>
-                        <div>
-                            <div id="JimDataCluster">
-                                <picture>
-                                    <source srcset="img/thinkink/research/jim600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/jim1200px.jpg" alt="Jim Data Cluster" />
-                                </picture>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="JimDataCluster">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/jim600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/jim1200px.jpg" alt="Jim Data Cluster" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="LydiaDataCluster">
-                                <picture>
-                                    <source srcset="img/thinkink/research/lydia600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/lydia1200px.jpg" alt="Lydia Data Cluster" />
-                                </picture>
+                            <div class="col-md-6">
+                                <div id="LydiaDataCluster">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/lydia600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/lydia1200px.jpg" alt="Lydia Data Cluster" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="JorgeDataCluster">
-                                <picture>
-                                    <source srcset="img/thinkink/research/jorge600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/jorge1200px.jpg" alt="Jorge Data Cluster" />
-                                </picture>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="JorgeDataCluster">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/jorge600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/jorge1200px.jpg" alt="Jorge Data Cluster" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="JessDataCluster">
-                                <picture>
-                                    <source srcset="img/thinkink/research/jess600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/jess1200px.jpg" alt="Jess Data Cluster" />
-                                </picture>
+                            <div class="col-md-6">
+                                <div id="JessDataCluster">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/jess600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/jess1200px.jpg" alt="Jess Data Cluster" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="BeauDataCluster">
-                                <picture>
-                                    <source srcset="img/thinkink/research/beau600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/beau1200px.jpg" alt="Beau Data Cluster" />
-                                </picture>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="BeauDataCluster">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/beau600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/beau1200px.jpg" alt="Beau Data Cluster" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div class="container">
-                                <p>Using the data from the interviews, I organized the quotes and thoughts based on similar ideas into the categories below.</p>
+                        </div>
+                        <div class="container">
+                            <p>Using the data from the interviews, I organized the quotes and thoughts based on similar ideas into the categories below.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="CommunityAffinityMap">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/community600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/community1200px.jpg" alt="Community Affinity Map" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="CommunityAffinityMap">
-                                <picture>
-                                    <source srcset="img/thinkink/research/community600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/community1200px.jpg" alt="Community Affinity Map" />
-                                </picture>
+                            <div class="col-md-6">
+                                <div id="CompetitionAffinityMap">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/competition600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/competition1200px.jpg" alt="Competition Affinity Map" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="CompetitionAffinityMap">
-                                <picture>
-                                    <source srcset="img/thinkink/research/competition600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/competition1200px.jpg" alt="Competition Affinity Map" />
-                                </picture>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="FeaturesAffinityMap">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/features600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/features1200px.jpg" alt="Features Affinity Map" />
+                                    </picture>
+                                </div>
                             </div>
-                            <div id="FeaturesAffinityMap">
-                                <picture>
-                                    <source srcset="img/thinkink/research/features600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/features1200px.jpg" alt="Features Affinity Map" />
-                                </picture>
-                            </div>
-                            <div id="NeedsAffinityMap">
-                                <picture>
-                                    <source srcset="img/thinkink/research/needs600px.jpg" media="(max-width:767px)" />
-                                    <img src="img/thinkink/research/needs1200px.jpg" alt="Needs Affinity Map" />
-                                </picture>
+                            <div class="col-md-6">
+                                <div id="NeedsAffinityMap">
+                                    <picture>
+                                        <source srcset="img/thinkink/research/needs600px.jpg" media="(max-width:767px)" />
+                                        <img src="img/thinkink/research/needs1200px.jpg" alt="Needs Affinity Map" />
+                                    </picture>
+                                </div>
                             </div>
                         </div>
                         <div>
@@ -258,8 +286,8 @@
                             <div>
                                 <h2>Wireframes</h2>
                                 <p>
-                                    To get the ball rolling, I started by sketching some basic ideas for the home screen, tattoos tab, filters window, and artists’ profile. <br> Then I took these sketches and turned them into wireframes in Adobe
-                                    XD. I tried to keep things simple to concentrate mainly on getting the ideas on paper.<br />
+                                    To get the ball rolling, I started by sketching some basic ideas for the home screen, tattoos tab, filters window, and artists’ profile. <br />
+                                    Then I took these sketches and turned them into wireframes in Adobe XD. I tried to keep things simple to concentrate mainly on getting the ideas on paper.<br />
                                     <br />
                                     The three tasks I focused on were:
                                 </p>
@@ -389,7 +417,7 @@
             <div>
                 <div>
                     <h2>talk to me</h2>
-                    <p>I love meeting new friends, come say hi! Though be warned, I mostly tweet about baseball.</p>
+                    <p>"I love meeting new friends, come say hi! Though be warned, I mostly tweet about baseball."</p>
                 </div>
                 <div>
                     <a href="mailto:erin.sovereign@gmail.com" class="button contact">Email me</a>
@@ -404,7 +432,7 @@
                                 <path
                                     d="M104.512 54.28C75.171 54.28 56 73.57 56 98.853c0 24.752 18.588 44.574 47.377 44.574h.554c29.903 0 48.516-19.822 48.516-44.574-.555-25.283-18.611-44.573-47.935-44.573zM357.278 172.601c-45.49 0-65.866 25.017-77.276 42.589v-36.523h-85.738c1.137 24.197 0 257.961 0 257.961h85.737V292.564c0-7.711.554-15.42 2.827-20.931 6.188-15.4 20.305-31.352 43.993-31.352 31.012 0 43.436 23.664 43.436 58.327v138.02h85.741v-147.93c0-79.237-42.305-116.097-98.72-116.097z"
                                     fill-rule="nonzero"
-
+                                />
                             </g>
                         </svg>
                     </a>
@@ -412,8 +440,13 @@
                         <!-- Twitter icon -->
 
                         <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                          <g data-name="6-twitter"><rect height="64" rx="11.2" ry="11.2" transform="rotate(180 32 32)" width="64" fill="#00aade"/>
-                            <path d="M47.2 20.8a8 8 0 004-4.8c-1.6 1.6-5 2.13-5 2.13a8 8 0 00-13.83 7.47H32a23.45 23.45 0 01-16.8-8.8s-4.8 6.4 2.4 11.2c0 0-3.2 0-4-.8 0 0-.8 4.8 6.4 8a3.86 3.86 0 01-3.2 0c0 3.09 3.22 5.6 7.2 5.6 0 2.21-5.37 4-12 4 10.4 7.2 35.2 5.6 36.8-21.6l4-4z" fill="#fff"/></g>
+                            <g data-name="6-twitter">
+                                <rect height="64" rx="11.2" ry="11.2" transform="rotate(180 32 32)" width="64" fill="#00aade" />
+                                <path
+                                    d="M47.2 20.8a8 8 0 004-4.8c-1.6 1.6-5 2.13-5 2.13a8 8 0 00-13.83 7.47H32a23.45 23.45 0 01-16.8-8.8s-4.8 6.4 2.4 11.2c0 0-3.2 0-4-.8 0 0-.8 4.8 6.4 8a3.86 3.86 0 01-3.2 0c0 3.09 3.22 5.6 7.2 5.6 0 2.21-5.37 4-12 4 10.4 7.2 35.2 5.6 36.8-21.6l4-4z"
+                                    fill="#fff"
+                                />
+                            </g>
                         </svg>
                     </a>
                 </div>
