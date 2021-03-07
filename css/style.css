@@ -1,7 +1,7 @@
 /*
 Colors used:
 Primary Color (Prussian Blue): #002642;
-Secondary Color (Salsa Red): #FB3640;
+Secondary Color (Salsa Red): #fb3640;
 Active Color (dark purple): #553555;
 */
 
@@ -43,9 +43,7 @@ nav > ul {
   list-style-type: none;
   padding-top: 50px;
   text-align: center;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -87,6 +85,31 @@ nav > ul > li > a:hover {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 /*end animation attempts*/
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 ol {
     background-color: white;
     color: #002642;
@@ -205,9 +228,10 @@ a:active {
 }
 header {
     background-color: white;
-    padding: 10px;
     margin: 10px 5px 15px 5px;
     position: relative;
+    text-align: left;
+    padding: 10px 0 4px;
 }
 header .container:after{
   content: '';
@@ -217,7 +241,7 @@ header .container:after{
 }
 
 .logo{
-  max-width: 250px;
+  max-width: 150px;
   float: left;
 }
 .container {
@@ -263,6 +287,24 @@ footer .container {
   max-width: 100%;
   height: auto;
 }
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #fb3640; /* Set a background color */
+  color: #002642; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  opacity: .8;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -274,6 +316,9 @@ Medium devices (640px and larger)
   }
   .col-md-6 {
   width: 50%;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
 }
 h1 {
   font-size: 42px;
@@ -304,6 +349,12 @@ h1 {
     float: right;
     margin-top: 4px;
   }
+  nav > ul {
+  margin: 1em 0;
+}
+  nav > ul > li {
+    display: inline-block;
+  }
   nav > ul > li > a {
     font-size: 18px;
   }
@@ -324,6 +375,9 @@ header {
   text-align: unset;
   background: none;
 }
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
 .col-lg-7 {
 width: 75%;
 }
@@ -338,6 +392,10 @@ h1{
 nav > ul {
   padding-top: 50px;
   padding-right: 25px;
+  margin: 1em 0;
+}
+nav > ul > li {
+  display: inline-block;
 }
 nav > ul > li > a {
   font-size: 18px;
@@ -353,6 +411,9 @@ X-large devices (1440px or larger)
   body{
     font-size: 18px;
   }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -365,6 +426,12 @@ X-large devices (1440px or larger)
   }
   #intro span {
   display: block;
+}
+nav > ul {
+  margin: 1em 0;
+}
+nav > ul > li {
+  display: inline-block;
 }
 nav > ul > li > a {
   font-size: 18px;

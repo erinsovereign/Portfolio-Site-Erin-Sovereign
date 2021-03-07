@@ -13,19 +13,24 @@
         <meta name="description" content="A personal portfolio for my work in UX Design" />
         <title>Erin Sovereign</title>
         <link href="favicon.ico" rel="shortcut icon" />
+        <script src="https://kit.fontawesome.com/868948843d.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <div class="container">
-                <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo" />
+          <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+              <img src="img/logo_hq.jpg" alt="ErinSovereignlogo" class="logo">
                 <nav id="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="about.html">About</a></li>
+                        <!--remember myFunction is a placeholder!!! Replace this!-->
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </nav>
             </div>
+          </div>
         </header>
         <main>
             <!--New Content here-->
@@ -452,7 +457,11 @@
                 </div>
                 <p>Copyright Erin-Sovereign 2021</p>
             </div>
+            <div>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
