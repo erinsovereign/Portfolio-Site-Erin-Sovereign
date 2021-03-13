@@ -139,7 +139,7 @@ h3 {
 }
 h1 {
     color: #fb3640;
-    font-size: 3.5rem;
+    font-size: 2rem;
     padding: 10px 5px 15px 5px;
     text-align: center;
     margin: 0 0 20px;
@@ -242,10 +242,10 @@ header .container:after{
 
 .logo{
   max-width: 150px;
-  float: left;
 }
 .container {
-  padding: 15px 0px;
+  padding: 15px;
+  font-size: 1rem;
 }
 .row {
   margin-bottom: 15px;
@@ -305,7 +305,9 @@ footer .container {
 #myBtn:hover {
   opacity: .8;
 }
-
+div.col-md-6 {
+  padding-bottom: 60px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
