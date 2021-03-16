@@ -31,6 +31,8 @@ ul {
     padding: 0 0 0 20px;
     margin: 0px;
     text-align: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 ul > li {
   padding-left: 0px;
@@ -152,27 +154,28 @@ box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
 h2 {
     background-color: white;
     color: #002642;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-decoration: underline;
     padding: 20px 5px 10px 5px;
     text-align: center;
 }
 h3 {
     color: #fb3640;
-    font-size: 2rem;
+    font-size:1.7rem;
     padding: 10px;
     padding: 10px 5px 10px 15px;
-    text-align: left;
+    text-align: center;
 }
 h4 {
-    background-color: white;
-    color: #002642;
-    font-size: 1.6rem;
+    background-color: #002642;
+    color: white;
+    font-size: 2.0rem;
     margin: 0px;
+    text-decoration: underline;
 }
 p{
-  margin-bottom: 20px;
-  font-size: 22px;
+  margin: 20px;
+  font-size: 20px;
 }
 footer {
     background-color: #002642;
@@ -186,11 +189,11 @@ img {
     max-width: 400px;
 }
 a {
-    color: #fb3640;
-    text-decoration: underline;
+    text-decoration: none;
     color: #fb3640;
     transition: 0.2s underline;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: bold;
 }
 a:focus,
 a:hover {
@@ -250,6 +253,9 @@ header .container:after{
 .row {
   margin-bottom: 15px;
 }
+.project {
+  margin-bottom: 30px;
+}
 .project-text {
   margin-bottom: 15px;
   padding: 0 20px;
@@ -262,17 +268,22 @@ header .container:after{
   padding: 0 20px;
 }
 footer .container {
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 .social {
-  padding: 20px 0;
+  padding: 60px 0 30px;
 }
 .social a {
-  width: 50px;
+  width: 40px;
   margin: 0 10px;
   display: inline-block;
 }
+.social-description {
+  font-size: 14px;
+  font-style:italic;
+}
 .copyright {
+  font-size: 12px;
   margin-bottom: 0px;
 }
 .ordered-list-left{
@@ -306,8 +317,9 @@ footer .container {
   opacity: .8;
 }
 div.col-md-6 {
-  padding-bottom: 60px;
+  padding: 0 20px 80px;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -322,8 +334,18 @@ Medium devices (640px and larger)
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
+.navtoggle.responsive li {
+  border-top: 0;
+  padding: 0;
+}
+.navtoggle.responsive nav {
+  padding: 0;
+}
+.navtoggle li .icon {
+  display: none;
+}
 h1 {
-  font-size: 42px;
+  font-size: 32px;
 }
   header {
   text-align: unset;
@@ -353,6 +375,7 @@ h1 {
   }
   nav > ul {
   margin: 1em 0;
+  padding-top: 32px;
 }
   nav > ul > li {
     display: inline-block;
@@ -365,6 +388,9 @@ h1 {
   }
   #intro span {
   display: block;
+}
+p {
+  font-size: 20px;
 }
 }
 /* ==============================
@@ -380,6 +406,9 @@ header {
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
+.navtoggle li .icon {
+  display: none;
+}
 .col-lg-7 {
 width: 75%;
 }
@@ -392,7 +421,7 @@ h1{
   padding-right: 10px;
 }
 nav > ul {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-right: 25px;
   margin: 1em 0;
 }
@@ -415,6 +444,9 @@ X-large devices (1440px or larger)
   }
   .navtoggle li:not(:last-child) {
     display: inline-block;
+  }
+  .navtoggle li .icon {
+    display: none;
   }
   .container {
     max-width: 1200px;
